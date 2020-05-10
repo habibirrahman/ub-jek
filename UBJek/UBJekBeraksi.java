@@ -9,7 +9,6 @@ public class UBJekBeraksi {
 
     public static String auth() {
         Scanner in = new Scanner(System.in);
-//        for (int i = 0; i < 3; i++) {
         System.out.print("Username: ");
         String user = in.nextLine();
         String user2 = user.toUpperCase();
@@ -21,8 +20,6 @@ public class UBJekBeraksi {
                 return user2;
             }
         }
-//        System.out.println("username atau password salah, coba lagi");
-//        System.out.println("input " + (2 - i) + " remaining");
 
         return "failed";
     }
@@ -59,19 +56,6 @@ public class UBJekBeraksi {
         driver1.cetakPenumpang();
         System.out.println(driver1);
         driver1.omsetUbJek();
-//
-//        UBJek driver2 = new UBJek("Jpe");
-//        Penumpang P2 = new Penumpang("Mina", 7);
-//        driver2.newCostumer(P2);
-//        P2 = new Penumpang("Momi", 15);
-//        driver2.newCostumer(P2);
-//        P2 = new Penumpang("Chae", 5);
-//        driver2.newCostumer(P2);
-//        P2 = new Penumpang("Rose", 11);
-//        driver2.newCostumer(P2);
-//        driver2.cetakPenumpang();
-//        System.out.println(driver2);
-//        driver2.omsetUbJek();
 
     }
 }
